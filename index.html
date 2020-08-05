@@ -2,8 +2,9 @@
 <html lang="pt-br">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/main.css" />
+    <link rel="stylesheet" type="text/css" href="/partials/landing-page.css" />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap"
@@ -11,15 +12,35 @@
     />
     <title>Proffy | Sua plataforma de estudos online</title>
   </head>
+
   <body id="landing-page">
     <div id="container">
-      <h1>Proffy</h1>
-      <p>
-        Sua plataforma de estudos online
-      </p>
-      <button>Estudar</button>
-      <button>Dar Aulas</button>
+      <div class="logo-container">
+        <img src="/images/logo.svg" alt="Proffy" />
+        <h2>Sua plataforma de estudos online</h2>
+      </div>
+      <img
+        class="hero-image"
+        src="/images/landing.svg"
+        alt="Plataforma de estudos"
+      />
+
+      <div class="buttons-container">
+        <a class="study" href="/study.html">
+          <img src="/images/icons/study.svg" alt="Estudar" />
+          Estudar
+        </a>
+
+        <a class="teach" href="/teach.html">
+          <img src="/images/icons/teach.svg" alt="Dar aulas" />
+          Dar aulas
+        </a>
+      </div>
+
+      <div class="total-connections">
+        Total de 200 conexões já realizadas
+        <img src="/images/icons/purple-heart.svg" alt="Coração roxo">
+      </div>
     </div>
-    <!--script src="" alt="Maçã"></script-->
   </body>
 </html>
