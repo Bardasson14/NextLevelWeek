@@ -106,7 +106,7 @@
   }
 
   .logo-container img {
-    height: 100%;
+     height: 100%;
   }
 
   .hero-image {
@@ -121,6 +121,9 @@
 
   .total-connections {
     grid-area: texting;
-    justify-self: end;
+    text-align: center;
+    justify-self: center;
+    margin-top:0;
   }
+
 }
