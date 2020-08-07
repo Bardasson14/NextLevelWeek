@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const Proffy = Schema({
+const Proffy = new Schema({
     name: {
         type: String, 
         required: true

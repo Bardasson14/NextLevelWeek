@@ -16,7 +16,7 @@
     </header>
 
     <main>
-      <form action="/register" id="create-class" method="POST">
+      <form id="create-class" method="POST" action="/register">
         <fieldset>
           <legend>Seus dados</legend>
           <div class="input-block">
@@ -64,13 +64,13 @@
         <fieldset id="schedule-items">
           <legend>
             Horários disponíveis
-            <button id="add-time">+ Novo Horário</button>
+            <button id="add-time" type="button">+ Novo Horário</button>
           </legend>
 
           <div class="schedule-item">
             <div class="select-block">
               <label for="weekday">Dia da semana</label>
-              <select name="weekday[]" id="">
+              <select name="weekday" id="" required>
                 <option value="" disabled hidden="">Selecione uma opção</option>
                 <option value="0">Domingo</option>
                 <option value="1">Segunda-feira</option>
@@ -100,6 +100,7 @@
         <p><img src="./img/icons/warning.svg" alt="Aviso Importante!">Importante!<br>Preencha todos os dados</p>
 
         <button type="submit" form="create-class">Salvar cadastro</button>
+
         <script src="./js/addField.js"></script>
       </footer>
     </main>
